@@ -1,0 +1,6 @@
+Go the directory of the project 
+use docker build command with required image name
+docker build -t sirispringapp .
+docker run to create a container with port mapping
+docker run -d -p 8080:8080 --name my-siriSpring-server sirispringapp
+spring boot app starts 
